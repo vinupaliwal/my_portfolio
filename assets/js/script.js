@@ -2,7 +2,7 @@
 
 
 
-// element toggle function
+// element toggle function //
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
 
@@ -113,8 +113,6 @@ for (let i = 0; i < filterBtn.length; i++) {
 
 }
 
-
-
 // contact form variables
 const form = document.querySelector("[data-form]");
 const formInputs = document.querySelectorAll("[data-form-input]");
@@ -136,7 +134,7 @@ for (let i = 0; i < formInputs.length; i++) {
 
 
 
-// page navigation variables
+// page navigation variables //
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
 

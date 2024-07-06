@@ -1,20 +1,3 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
 
   /**
@@ -112,9 +95,6 @@
 }
 
 
-
-
-
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
@@ -156,9 +136,6 @@ input, textarea {
 html { font-family: var(--ff-poppins); }
 
 body { background: var(--smoky-black); }
-
-
-
 
 
 /*-----------------------------------*\
@@ -293,9 +270,6 @@ article.active {
 }
 
 
-
-
-
 /*-----------------------------------*\
   #MAIN
 \*-----------------------------------*/
@@ -305,8 +279,6 @@ main {
   margin-bottom: 75px;
   min-width: 259px;
 }
-
-
 
 
 
@@ -448,8 +420,6 @@ main {
 
 
 
-
-
 /*-----------------------------------*\
   #NAVBAR
 \*-----------------------------------*/
@@ -486,8 +456,6 @@ main {
 .navbar-link:focus { color: var(--light-gray-70); }
 
 .navbar-link.active { color: var(--orange-yellow-crayola); }
-
-
 
 
 
@@ -1596,10 +1564,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * PORTFOLIO
+   * PORTFOLIO //
    */
 
-  .article-title { padding-bottom: 20px; }
+  .article-title {padding-bottom: 20px;}
 
   .filter-select-box { display: none; }
 
